@@ -1,12 +1,12 @@
 import type { SiteConfig, SiteContent } from "../types";
-
+//meta data
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Uzair Sultan — Mobile & Web Developer",
+  author: "Uzair Sultan",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "UX Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/uzair-small.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -25,11 +25,11 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Uzair Sultan",
+    specialty: "UX Engineer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "UX Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    email: "uzair.sultan@venturedive.com",
   },
   experience: [
     {
@@ -91,7 +91,7 @@ export const SITE_CONTENT: SiteContent = {
 
       Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/uzair-big.jpeg",
   },
 };
 
