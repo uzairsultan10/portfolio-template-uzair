@@ -1,8 +1,9 @@
 import type { SiteConfig, SiteContent } from "../types";
 //meta data
 export const SITE_CONFIG: SiteConfig = {
-  title: "Uzair Sultan — Mobile & Web Developer",
+  //title: "Uzair Sultan — Mobile & Web Developer",
   author: "Uzair Sultan",
+  tagline: "Product Designer and Engineer",
   description:
     "UX Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
   lang: "en",
@@ -25,10 +26,9 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Uzair Sultan",
-    specialty: "UX Engineer",
-    summary:
-      "UX Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    name: SITE_CONFIG.author,
+    specialty: SITE_CONFIG.tagline,
+    summary: SITE_CONFIG.description,
     email: "uzair.sultan@venturedive.com",
   },
   experience: [
@@ -93,6 +93,14 @@ export const SITE_CONTENT: SiteContent = {
     `,
     image: "/uzair-big.jpeg",
   },
+    
+  tools: [
+    "Cursor",
+    "Figma",
+    "CSS"
+  ],
+
 };
+
 
 // #5755ff
